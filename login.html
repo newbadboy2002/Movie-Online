@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel=" stylesheet" href="login.css"/>
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <div class="center">
+        <h1>ĐĂNG NHẬP</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" id="user" required>
+                <span></span>
+                <label>Tên đăng nhập</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" id="pass" required>
+                <span></span>
+                <label>Mật khẩu</label>
+            </div>
+            <div class="pass">Quên mật khẩu?</div>
+            <input type="submit" onclick="return checkform()" value="ĐĂNG NHẬP">
+            <div class="signup_link">
+                Bạn chưa có tài khoản? <a href="register.html"> Đăng Kí</a>
+            </div>
+        </form>
+    </div>
+<script src="login.js"></script>    
+</body>
+</html>
